@@ -7,7 +7,11 @@ import './style.css'
 // import './bases/05-functions'
 // import './bases/06-obj-destructuring'
 // import './bases/07-array-des'
-import './bases/08-import-export'
+// import './bases/08-import-export'
+// import { getHeroesByOwner } from './bases/08-import-export'
+// import { Owner } from './bases/data/heroes.data'
+// import './bases/09-promises';
+import './bases/10-fetch-Api';
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -16,3 +20,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
+// console.log(getHeroesByOwner(Owner.DC));
